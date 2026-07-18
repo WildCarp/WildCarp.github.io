@@ -163,7 +163,8 @@
     "links": [
       { "text": "GitHub", "type": "copy", "value": "https://WildCarp.github.io/", "hint": "GitHub 链接已复制" },
       { "text": "Email",  "type": "copy", "value": "2420267192@qq.com",            "hint": "邮箱已复制：2420267192@qq.com" },
-      { "text": "WeChat", "type": "copy", "value": "wild_carp",                    "hint": "微信号已复制：wild_carp" }
+      { "text": "WeChat", "type": "copy", "value": "wild_carp",                    "hint": "微信号已复制：wild_carp" },
+      { "text": "Phone Number", "type": "copy", "value": "18711040056",                    "hint": "手机号已复制：18711040056" }
     ]
   },
 
