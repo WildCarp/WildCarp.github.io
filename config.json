@@ -1,0 +1,177 @@
+{
+  "_说明": "修改本文件即可更新网页内容与配色。本地预览需通过 http 服务器（如 localhost），部署到 GitHub Pages 后直接生效。",
+
+  "profile": {
+    "name": "Vike",
+    "navLogo": "VIKE.TA",
+    "pageTitle": "Vike — Technical Artist & Indie Game Dev",
+    "pageDescription": "Vike 的作品集 — 游戏行业技术美术 / TA",
+    "footerLeft": "© 2026 Vike",
+    "footerRight": "Shenzhen / Guangzhou"
+  },
+
+  "theme": {
+    "colors": {
+        "bg": "#08120c", "bgSoft": "#0e1c12", "surface": "#142219",
+        "text": "#e4f0e8", "textDim": "#7a9a85",
+        "accent": "#3ddc97", "accent2": "#a8e63d", "accent3": "#1b9aaa",
+        "border": "rgba(150,220,170,0.1)"
+    },
+    "_配色预设": "想换色时，把下面任一整套 colors 复制到上面的 colors 即可。也可自行修改单个颜色。",
+    "presets": {
+      "neonCyan": {
+        "bg": "#0a0a0f", "bgSoft": "#12121c", "surface": "#1a1a2e",
+        "text": "#e8e8f0", "textDim": "#8a8aa0",
+        "accent": "#00f0ff", "accent2": "#ff2e88", "accent3": "#b537f2",
+        "border": "rgba(255,255,255,0.08)"
+      },
+      "sunset": {
+        "bg": "#120a08", "bgSoft": "#1c1210", "surface": "#2a1a14",
+        "text": "#f5ebe0", "textDim": "#a89484",
+        "accent": "#ff7a3d", "accent2": "#ffd23f", "accent3": "#ee4266",
+        "border": "rgba(255,200,150,0.1)"
+      },
+      "forest": {
+        "bg": "#08120c", "bgSoft": "#0e1c12", "surface": "#142219",
+        "text": "#e4f0e8", "textDim": "#7a9a85",
+        "accent": "#3ddc97", "accent2": "#a8e63d", "accent3": "#1b9aaa",
+        "border": "rgba(150,220,170,0.1)"
+      },
+      "ocean": {
+        "bg": "#06101a", "bgSoft": "#0c1826", "surface": "#13243a",
+        "text": "#e0ecf5", "textDim": "#7a90a5",
+        "accent": "#2ec5ff", "accent2": "#7c5cff", "accent3": "#00d4c4",
+        "border": "rgba(150,200,255,0.1)"
+      },
+      "monoPurple": {
+        "bg": "#0d0813", "bgSoft": "#160e20", "surface": "#1f1530",
+        "text": "#ece4f5", "textDim": "#9080a5",
+        "accent": "#c77dff", "accent2": "#9d4edd", "accent3": "#e0aaff",
+        "border": "rgba(200,170,255,0.1)"
+      }
+    }
+  },
+
+  "hero": {
+    "tag": "Technical Artist · Indie Dev",
+    "titleLines": ["将美术与", "工程连接", "技术美术TA"],
+    "accentLineIndex": 1,
+    "subtitle": "我是 <strong>李沩锞·Vike</strong>，游戏行业技术美术（TA）。专注于 <strong>材质与特效</strong>。让美术需求落地为可维护的工程实现。",
+    "ctaPrimary": { "text": "查看作品 →", "href": "#projects" },
+    "ctaGhost": { "text": "联系我", "href": "#contact" }
+  },
+
+  "about": {
+    "label": "01 / About",
+    "title": "在美术与工程的缝隙里，搭建桥梁。",
+    "paragraphs": [
+      "作为技术美术，我的工作是把美术团队的设计意图翻译成引擎能理解、美术能复用的<strong>工具与管线</strong>。从着色器编写、材质方案到LOD 策略，确保视觉效果在性能预算内高质量落地。",
+      "工作之外，我热爱 <strong>独立游戏</strong>——用极致的约束逼出最纯粹的游戏乐趣。像素限制反而让设计语言更清晰，也让我对<strong>性能与表现力的平衡</strong>有了更深理解。",
+      "好的技术美术，不只是写对 shader，更是让美术和程序<strong>说同一种语言</strong>。"
+    ],
+    "stats": [
+      { "num": 2,  "label": "年游戏行业TA岗位经验", "suffix": "" },
+      { "num": 80, "label": "材质 / 特效交付", "suffix": "+" },
+      { "num": 10,  "label": "实现方案 / 优化方案", "suffix": "+" }
+    ]
+  },
+
+  "skills": {
+    "label": "02 / Skills",
+    "title": "技术栈与专业能力",
+    "items": [
+      {
+        "icon": "🎨", "title": "着色器与材质",
+        "desc": "编写 Material Graph/HLSL/GLSL 着色器，卡通渲染、PBR、风格化材质方案，优化 Shader 变体与性能。",
+        "tags": ["HLSL", "GLSL", "ShaderGraph", "Material Graph", "Unreal"]
+      },
+      {
+        "icon": "📐", "title": "性能优化",
+        "desc": "裁剪、画质分级、Draw Call 优化、LOD 策略，平衡画质与帧率。",
+        "tags": ["RenderDoc", "GPU Profiler", "LOD", "Baking"]
+      },
+      {
+        "icon": "🔥", "title": "特效与Niagara",
+        "desc": "用 Niagara 制作特效，联合材质与NiagaraModuleScript实现复杂交互特效，优化特效性能",
+        "tags": ["Niagara", "ModuleScript", "NiagaraEffectType"]
+      },
+      {
+        "icon": "🤝", "title": "跨团队协作",
+        "desc": "在美术与程序之间充当翻译，把模糊的视觉需求拆解为清晰的工程任务，推动方案落地。",
+        "tags": ["需求拆解", "文档", "实现方案"]
+      }
+    ]
+  },
+
+  "projects": {
+    "label": "03 / Projects",
+    "title": "部分作品",
+    "_media说明": "每个作品的 media 决定左侧展示方式。kind 可选：images(图片合集,点击放大)、video(可播放视频)、embed(嵌入B站/YouTube)、留空显示符号占位。素材路径见下方 _素材路径说明。",
+    "_素材路径说明": "1) 本地素材放仓库 assets/ 文件夹，用相对路径引用如 'assets/proj1/01.png'；2) 外链直接写完整 URL 如 'https://example.com/video.mp4'；3) B站嵌入链接在视频「分享」→「嵌入代码」里的 src 地址；4) YouTube 嵌入链接格式 'https://www.youtube.com/embed/视频ID'。",
+    "items": [
+      {
+        "type": "Shader · 材质", "year": "2025",
+        "title": "风格化卡通渲染管线",
+        "desc": "为项目定制的 NPR 渲染方案：Ramp 光照、描边、MatCap 二次色，支持角色与场景统一风格。",
+        "media": {
+          "kind": "images",
+          "images": [
+            "https://picsum.photos/seed/npr1/960/540",
+            "https://picsum.photos/seed/npr2/960/540",
+            "https://picsum.photos/seed/npr3/960/540"
+          ]
+        },
+        "glyph": "⬡", "glyphColor": "#3ddc97", "bgFrom": "#0a1f14", "bgTo": "#143d24"
+      },
+      {
+        "type": "特效 · Niagara", "year": "2024",
+        "title": "技能特效合集",
+        "desc": "用 Niagara 制作的系列战斗特效：斩击、爆破、护盾，联合材质与 ModuleScript 实现交互反馈。",
+        "media": {
+          "kind": "video",
+          "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "poster": "https://picsum.photos/seed/fx1/960/540"
+        },
+        "glyph": "◆", "glyphColor": "#a8e63d", "bgFrom": "#13210a", "bgTo": "#243d10"
+      },
+      {
+        "type": "工具 · 脚本", "year": "2024",
+        "title": "美术资产批量校验工具",
+        "desc": "Maya/Blender 插件，自动检查命名规范、UV、LOD、材质引用，把美术交付审查时间缩短 70%。",
+        "media": {
+          "kind": "embed",
+          "embed": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        "glyph": "❖", "glyphColor": "#1b9aaa", "bgFrom": "#0a1e22", "bgTo": "#103a42"
+      },
+      {
+        "type": "材质 · 优化", "year": "2023",
+        "title": "移动端材质性能优化",
+        "desc": "对上线手游做 Shader 变体裁剪与纹理流送改造，中端机帧率从 30 提升到 60。",
+        "media": { "kind": "" },
+        "glyph": "▲", "glyphColor": "#3ddc97", "bgFrom": "#0a1f14", "bgTo": "#143d24"
+      }
+    ]
+  },
+
+  "contact": {
+    "label": "04 / Contact",
+    "titleLines": ["有项目想聊聊？", "随时找我。"],
+    "accentLineIndex": 1,
+    "_type说明": "type 统一用 copy：点击后复制 value 到剪贴板并弹出 hint 提示。",
+    "links": [
+      { "text": "GitHub", "type": "copy", "value": "https://github.com/你的用户名", "hint": "GitHub 链接已复制" },
+      { "text": "Email",  "type": "copy", "value": "2420267192@qq.com",            "hint": "邮箱已复制：2420267192@qq.com" },
+      { "text": "WeChat", "type": "copy", "value": "wild_carp",                    "hint": "微信号已复制：wild_carp" }
+    ]
+  },
+
+  "nav": {
+    "links": [
+      { "text": "关于", "href": "#about" },
+      { "text": "技能", "href": "#skills" },
+      { "text": "作品", "href": "#projects" },
+      { "text": "联系", "href": "#contact" }
+    ]
+  }
+}
