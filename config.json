@@ -160,7 +160,7 @@
     "accentLineIndex": 1,
     "_type说明": "type 统一用 copy：点击后复制 value 到剪贴板并弹出 hint 提示。",
     "links": [
-      { "text": "GitHub", "type": "copy", "value": "https://github.com/你的用户名", "hint": "GitHub 链接已复制" },
+      { "text": "GitHub", "type": "copy", "value": "https://WildCarp.github.io/", "hint": "GitHub 链接已复制" },
       { "text": "Email",  "type": "copy", "value": "2420267192@qq.com",            "hint": "邮箱已复制：2420267192@qq.com" },
       { "text": "WeChat", "type": "copy", "value": "wild_carp",                    "hint": "微信号已复制：wild_carp" }
     ]
