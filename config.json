@@ -7,7 +7,7 @@
     "pageTitle": "Vike — Technical Artist & Indie Game Dev",
     "pageDescription": "Vike 的作品集 — 游戏行业技术美术 / TA",
     "footerLeft": "© 2026 Vike",
-    "footerRight": "Shenzhen / Guangzhou"
+    "footerRight": "Shenzhen & Guangzhou"
   },
 
   "theme": {
@@ -56,7 +56,7 @@
     "tag": "Technical Artist · Indie Dev",
     "titleLines": ["将美术与", "工程连接", "技术美术TA"],
     "accentLineIndex": 1,
-    "subtitle": "我是 <strong>李沩锞·Vike</strong>，游戏行业技术美术（TA）。专注于 <strong>材质与特效</strong>。让美术需求落地为可维护的工程实现。",
+    "subtitle": "我是 <strong>李沩锞·Vike</strong>，游戏行业技术美术（TA）。专注于 <strong>UE材质与特效</strong>。让美术需求落地为可维护的工程实现。",
     "ctaPrimary": { "text": "查看作品 →", "href": "#projects" },
     "ctaGhost": { "text": "联系我", "href": "#contact" }
   },
@@ -72,7 +72,8 @@
     "stats": [
       { "num": 2,  "label": "年游戏行业TA岗位经验", "suffix": "" },
       { "num": 80, "label": "材质 / 特效交付", "suffix": "+" },
-      { "num": 10,  "label": "实现方案 / 优化方案", "suffix": "+" }
+      { "num": 10,  "label": "实现方案 / 优化方案", "suffix": "+" },
+      { "num": 35,  "label": "平均性能优化", "suffix": "%+" }
     ]
   },
 
@@ -92,8 +93,8 @@
       },
       {
         "icon": "🔥", "title": "特效与Niagara",
-        "desc": "用 Niagara 制作特效，联合材质与NiagaraModuleScript实现复杂交互特效，优化特效性能",
-        "tags": ["Niagara", "ModuleScript", "NiagaraEffectType"]
+        "desc": "用 Niagara 制作特效，联合材质与NiagaraModuleScript实现复杂交互特效，使用NDC和合批方案优化特效性能",
+        "tags": ["Niagara", "ModuleScript", "NiagaraEffectType", "NDC"]
       },
       {
         "icon": "🤝", "title": "跨团队协作",
@@ -156,7 +157,7 @@
 
   "contact": {
     "label": "04 / Contact",
-    "titleLines": ["有项目想聊聊？", "随时找我。"],
+    "titleLines": ["想聊聊？", "随时找我。"],
     "accentLineIndex": 1,
     "_type说明": "type 统一用 copy：点击后复制 value 到剪贴板并弹出 hint 提示。",
     "links": [
@@ -175,3 +176,4 @@
     ]
   }
 }
+
