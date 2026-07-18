@@ -83,13 +83,13 @@
     "items": [
       {
         "icon": "🎨", "title": "着色器与材质",
-        "desc": "编写 Material Graph/HLSL/GLSL 着色器，卡通渲染、PBR、风格化材质方案，优化 Shader 变体与性能。",
+        "desc": "编写 Material Graph/HLSL/GLSL 着色器，卡通渲染、PBR、NPR、风格化材质方案，优化 Shader 变体与性能。",
         "tags": ["HLSL", "GLSL", "ShaderGraph", "Material Graph", "Unreal"]
       },
       {
         "icon": "📐", "title": "性能优化",
-        "desc": "裁剪、画质分级、Draw Call 优化、LOD 策略，平衡画质与帧率。",
-        "tags": ["RenderDoc", "GPU Profiler", "LOD", "Baking"]
+        "desc": "Draw Call 优化、LOD 策略、降频、裁剪、画质分级，平衡画质与帧率。",
+        "tags": ["RenderDoc", "GPU Profiler", "LOD", "Culling"]
       },
       {
         "icon": "🔥", "title": "特效与Niagara",
